@@ -11,7 +11,7 @@ before_install:
 before_script:
  - mkdir build
  - cd build
- - cmake -DOPENMESH_BUILD_UNIT_TESTS=ON ../OpenMesh
+ - cmake -DOPENMESH_BUILD_PYTHON_BINDINGS=OFF -DOPENMESH_BUILD_UNIT_TESTS=ON ../OpenMesh
 
 script: make && make test
 
