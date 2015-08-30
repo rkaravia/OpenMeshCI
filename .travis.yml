@@ -9,6 +9,7 @@ compiler:
 addons:
   apt:
     packages:
+    - libgtest-dev
     - qt4-dev-tools
 
 before_script:
